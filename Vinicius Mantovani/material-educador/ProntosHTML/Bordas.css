@@ -1,0 +1,18 @@
+table,
+th,
+td {
+    border: 2px solid;
+    background-color: rgb(80, 132, 230);
+    font-family: arial;
+    
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+a{
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}

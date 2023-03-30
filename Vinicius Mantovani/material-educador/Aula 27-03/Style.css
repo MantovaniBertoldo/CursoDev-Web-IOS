@@ -1,0 +1,50 @@
+body {
+    box-shadow: 7px 7px 15px #bbcfda, -4px -4px 13px #fff,
+        inset 4px 4px 8px rgba(209, 217, 230, 0.2),
+        inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: #e8eff5;
+}
+input{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(72, 76, 122);
+    font-size: 14px;
+    height: 30px;
+    padding: 8px 24px;
+    border-radius: 50px;
+    background-image: linear-gradient(180deg,#fff,#f5f5fa);
+    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%), 0 1px 3px 0 rgb(93 100 148 / 20%);
+    transition: all .2s ease-out;
+}
+    :hover{
+        box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
+}
+select{
+display: inline-block;
+outline: 0;
+cursor: pointer;
+padding: 5px 16px;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+vertical-align: middle;
+border: 1px solid;
+border-radius: 6px;
+color: #24292e;
+background-color: #fafbfc;
+border-color: #1b1f2326;
+box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+transition-property: color, background-color, border-color;
+}
+:hover {
+    background-color: #f3f4f6;
+    border-color: #1b1f2326;
+    transition-duration: 0.1s;
+}
+
+

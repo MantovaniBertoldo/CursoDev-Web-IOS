@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify-all;
+    background-color: #e7e7e7; color: black; /* Gray */
+    width:auto;
+}
+
+label{
+    border-radius: 12px;
+}
+input{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(72, 76, 122);
+    font-size: 10px;
+    height: 20px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    background-image: linear-gradient(180deg,#fff,#f5f5fa);
+    box-shadow: 0 5px 11px 0 rgb(37 44 97 / 15%), 0 1px 10px 0 rgb(93 100 148 / 20%);
+    transition: all .2s ease-out;
+}
