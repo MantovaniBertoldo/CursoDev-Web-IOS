@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>"Sweet and Love"</title>
+</head>
+
+<body onload="boasVindas()">
+    <center><br><hr>
+        <strong>
+        <form action="#">
+            <label for="">Idade</label>
+            <input type="text" required size="15"/><br />
+            <label for="">Email</label>
+            <input type="text" required size="15"/><br />
+            <label for="">Senha</label>
+            <input type="text" required size="15"/><br />
+            <input type="submit" value="Login"/>
+            <br><hr><br>
+            <center/>
+            <label for="">indicaria a um amigo(a)?</label><br><br>
+
+            <input type="radio"name="status" id="Apro"/>
+            <label for="">Sim</label><br />
+
+            <input type="radio"name="status" id="Repro"/>
+            <label for="">Não</label><br><br><hr>
+            
+            <label for="">O que ele(a) mais gostou na loja? <br>(pode selecionar mais de uma
+                opção abaixo)</label><br><br>
+            <Input type="checkbox" name="" id=""></Input>
+            <label for=""> Doces</label><br>
+
+            <Input type="checkbox" name="" id=""></Input>
+            <label for="">Ambiente</label><br>
+
+            <Input type="checkbox" name="" id=""></Input>
+            <label for="">Entrega do pedido (Se ele solicitou via app)</label><br>
+
+            <Input type="checkbox" name="" id=""></Input>
+            <label for="">Atendimento</label><br>
+
+            <Input type="checkbox" name="" id=""></Input>
+            <label for="">Valores</label>
+            <br><hr><br>
+            <label for="">Campo para inserir qual sobremesa ou salgado você comprou no último pedido.</label><br><br>
+            <input type="text"list="comida">
+            
+            <datalist id="comida">
+                <option value="Bolo de Pote"></option>
+                <option value="Mousse de limão"></option>
+                <option value="Mousse de limão"></option>
+                <option value="Mousse de morango"></option>
+                <option value="Torta gelada de Bis"></option>
+            </datalist>
+            <br><br><hr>
+            <label for="">Em qual loja você foi atendido(a).</label><br><br>
+            <input type="text"list="Lojas">
+            
+            <datalist id="Lojas">
+                <option value="Aclimação"></option>
+                <option value="Liberdade"></option>
+                <option value="Tatuapé"></option>
+                <option value="São Joaquim"></option>
+            </datalist>
+            <br><br><hr>
+            <label for=""> deixe aqui seu feedback de nossos produtos ou atendimento</label><br><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Deixe aqui sua opinião"></textarea>
+            <br><br>
+        </strong>
+</body>
+</html>
