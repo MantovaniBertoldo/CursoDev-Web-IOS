@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(81, 153, 184);
+    color: rgb(9, 5, 59);
+    font-family: Arial, Helvetica, sans-serif;
+    border-image: 25% 10%;
+}
+h3{
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    background-color: #fafaff;
+    border: #fafaff;
+    border-left: 1rem solid;
+    border-radius: 5px;
+}
+p{
+    font-size:medium;
+    text-indent: 3em;
+}
+h1{
+    color: blue;
+    text-shadow: 3px 3px 5px rgb(120, 120, 153);
+    line-height: 200%;
+    background-color: #fafaff;
+    text-align: center;
+    font-size:x-large;
+    border-radius: 20px;
+    
+}
+h1:hover{
+    background-color: rgb(0, 195, 255);
+}
+h2{
+    text-align: center;
+    color: black;
+}
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
