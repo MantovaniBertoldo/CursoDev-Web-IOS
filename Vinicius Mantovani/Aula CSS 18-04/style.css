@@ -1,0 +1,98 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para a lista não ordenada */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Estilos para cada item da lista não ordenada */
+li {
+    float: left;
+    width: 25%;
+}
+
+/* Estilos para links de âncora */
+a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+
+/* Estilos para o link ativo */
+a:active {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para o link visitado */
+a:visited {
+    color: #999;
+}
+
+/* Estilos para o link quando o mouse está sobre ele */
+a:hover {
+    background-color: #ccc;
+}
+
+/* Estilos para o primeiro item da lista */
+li:first-child a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* Estilos para o último item da lista */
+li:last-child a {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Estilos para o primeiro link ativo */
+a:active:first-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* Estilos para o último link ativo */
+a:active:last-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* Estilos para o primeiro item da lista com um pseudo-elemento */
+li:first-child::before {
+    content: '>> ';
+}
+
+/* Estilos para o último item da lista com um pseudo-elemento */
+li:last-child::after {
+    content: ' <<';
+}
+
+/* Estilos para um pseudo-elemento que aparece apenas quando o mouse está sobre um link */
+a:hover::before {
+    content: '[ ';
+    color: red;
+}
+
+/* Estilos para um pseudo-elemento que aparece apenas quando o mouse está sobre um link ativo */
+a:active:hover::before {
+    content: '';
+}
+
+/* Estilos para um pseudo-elemento que aparece apenas quando um link é visitado */
+a:visited::after {
+    content: ' [';
+    color: blue;
+}

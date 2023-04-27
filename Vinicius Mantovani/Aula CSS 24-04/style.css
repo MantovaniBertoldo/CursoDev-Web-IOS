@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4);
+    grid-template-rows: auto;
+    grid-template-areas:"filho1""filho2""filho3""filho4";
+}
+.iten-1 {
+    border: 1px solid #000;
+    background-color: brown;
+    grid-area: filho1;
+}
+.iten-2 {
+    border: 1px solid #000;
+    background-color: blue;
+    grid-area: filho2;
+}
+.iten-3 {
+    border: 1px solid #000;
+    background-color: red;
+    grid-area: filho3;
+}
+.iten-4 {
+    border: 1px solid #000;
+    background-color: green;
+    grid-area: filho4;
+}

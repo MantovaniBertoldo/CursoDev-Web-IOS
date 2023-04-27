@@ -1,0 +1,36 @@
+header {
+    background-color: #d12b2b;
+    color: #fff;
+    padding: 10px;
+}
+article {
+    border: 1px solid #d12b2b;
+    margin: 10px;
+    padding: 10px;
+}
+section {
+    margin-bottom: 20px;
+}
+.absoluta {
+    width: 500px;
+    border: 1px solid ##d12b2b;
+    padding: 10px;
+}
+.relativa {
+    width: 50%;
+    border: 1px solid ##d12b2b;
+    padding: 10px;
+}
+.botao {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #d12b2b;
+}

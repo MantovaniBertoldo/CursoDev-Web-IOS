@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+p.texto{
+    font-family: monospace;
+    font-size: 15px;
+    color:#b3e9f3 ;
+    font-weight: 700;
+}
+p.logo{
+    color: #6590d1 ;
+    box-shadow: #48789f;
+    font-family: monospace;
+    font-size: 30px;
+}
+ul{
+    color: #48789f;
+    font-family: Arial, Helvetica, sans-serif;
+}

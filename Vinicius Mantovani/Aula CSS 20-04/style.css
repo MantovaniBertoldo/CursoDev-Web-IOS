@@ -1,0 +1,28 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.box1 {
+    flex: 1;
+    order: 2;
+}
+.box2 {
+    flex: 2;
+    order: 3;
+}
+.box3 {
+    flex: 1;
+    order: 1;
+}
+.box4 {
+    flex: 3;
+    order: 4;
+    align-self: flex-end;
+}
