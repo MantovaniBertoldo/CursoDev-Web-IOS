@@ -1,25 +1,15 @@
-// Receber as frutas
-let fruta1 = "Abacate";
-let fruta2 = "Banana";
-let fruta3 = "Maça";
-let fruta4 = "Laranja";
-let fruta5 = "Uva";
+const fruta1 = ' Laranja';
+const fruta2 = 'Banana';
+const fruta3 = 'Abacaxi';
+const fruta4 = 'Manga';
+const fruta5 = 'Morango';
 
-// Calcular o length de cada fruta
+console.log(`A quantidade de caracteres da fruta 1 é: ${fruta1.length}, fruta 2 é: ${fruta2.length}, fruta 3 é: ${fruta3.length}, fruta 4 é: ${fruta4.length} e fruta 5 é: ${fruta5.length}`);
 
-console.log("quantidade de letras");
+console.log(fruta1.substring(0, 3), fruta2.substring(0, 3), fruta3.substring(0, 3), fruta4.substring(0, 3), fruta5.substring(0, 3));
 
-// Extrair os 3 primeiros caracteres de cada fruta
+console.log(fruta1.trim());
 
-const substring2 = fruta2.substring(0, 3);
+console.log(fruta1.replace(' Laranja', 'Kiwi'.toLowerCase()), fruta2.replace('Banana', 'Pêssego'.toLowerCase()), fruta3.replace('Abacaxi', 'Uva'.toLowerCase()), fruta4.replace('Manga', 'Melancia'.toLowerCase()), fruta5.replace('Morango', 'Abacate'.toLowerCase()));
 
-// Remover espaços em branco do início de cada fruta
-const trimmed3 = fruta3.trim();
-
-// Converter cada fruta para caixa baixa
-const lower4 = fruta4.toLowerCase();
-
-// Exibir a listagem de frutas em um template string
-console.log(
-  `As frutas são: ${fruta1}, ${fruta2}, ${fruta3}, ${fruta4} e ${fruta5}.`
-);
+console.log(`O nome das frutas são: ${fruta1}, ${fruta2}, ${fruta3}, ${fruta4}, ${fruta5}`)
