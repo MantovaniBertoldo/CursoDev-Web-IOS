@@ -21,6 +21,7 @@ if(imparpar2 % 2 == 1){
 }else{
   if(imparpar2 > 10)
   console.log("O número é par e maior que 10")
-}else{
+else{
   console.log("O número é par porem é menor que 10")
+}
 }
